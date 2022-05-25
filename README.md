@@ -56,6 +56,8 @@ curl -X POST http://localhost:3000/auth/login -d '{"username": "esteban", "passw
 
 Esta es una aplicacion realizada con el Framework de Node Js llamado **Angular**, se encuentra ubicada en la carpeta llamada **front**.
 
+Entramos a la carpeta del **frontend**: ```cd front```
+
 Por favor dirijase al archivo **environment.ts** (que esncuentra dentro de src/envoronments) y en la linea 7 ponemos el token generado anteriormente reemplazando el string despues de la plabra **Bearer** conservando el espacio.
 
 Esto es nesesario para que el frontend pueda hacer peticiones al backend y almacenar la data de los csv.
