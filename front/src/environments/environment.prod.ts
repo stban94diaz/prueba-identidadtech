@@ -1,0 +1,4 @@
+export const environment = {
+  production: true,
+  token: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImVzdGViYW4iLCJzdWIiOiI2MjhlNDQxNDFmZTY0NzYwNWNhYmY0ZGIiLCJpYXQiOjE2NTM1MDE0NzgsImV4cCI6MTY1MzU4Nzg3OH0.mOeOhb-6jbQTk3baX9QbIXe8NxKPz2aaH8Yuhq674B0'
+};

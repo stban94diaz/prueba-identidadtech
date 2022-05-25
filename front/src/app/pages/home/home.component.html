@@ -1,0 +1,14 @@
+<section>
+  <label for="formFileLg" class="form-label">
+    A continuacion puede seleccionar un archivo en formato CSV para cargarlo en la base de datos.
+  </label>
+  <input
+    class="form-control form-control-lg"
+    type="file"
+    accept=".csv"
+    (input)="uploadDocument($event)">
+</section><br>
+
+<app-csv-render
+  *ngIf="data"
+  [data]="data"></app-csv-render>

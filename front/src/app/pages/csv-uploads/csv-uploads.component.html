@@ -1,0 +1,12 @@
+<h3>Esta es la lista de archivos CSV subidas por usted</h3>
+
+<a
+  class="link-csv"
+  [routerLink]="['/render', csv._id]"
+  *ngFor="let csv of csvs">
+  {{ csv.name }} {{ csv.createAt | date: 'dd/MM/yyyy hh:mm' }}
+</a>
+
+<div class="alert alert-warning" role="alert" *ngIf="!csvs || csvs.length===0">
+  Aun no hay archivos CSV subidos.
+</div>
